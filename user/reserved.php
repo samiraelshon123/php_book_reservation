@@ -18,7 +18,7 @@
                 
             }else if($reserved=="Physics"){
                 $book2='reserved';
-                $sql_state = mysqli_query($conn,"INSERT INTO grade_1(name, Technica_Writing, Physics, Programming_1, Math_0, Introduction_To_Computer)
+                $sql_state = mysqli_query($conn,"INSERT INTO grade_1(name, Technical_Writing, Physics, Programming_1, Math_0, Introduction_To_Computer)
                 VALUES('$name', '$book1', '$book2', '$book3', '$book4', '$book5')");
                 
             }else if($reserved=="Programming 1"){
